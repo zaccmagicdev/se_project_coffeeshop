@@ -31,12 +31,12 @@
     right: 50px;
 }
 
-.header__link{
+.nav{
     display: flex;
     justify-content: space-between;
 }
 
-.header__link__list{
+.header__links{
     display: flex;
     list-style-type: none;
     gap: 20px;
@@ -105,7 +105,7 @@
     color: white;
 }
 
-.recipes__header{
+.recipes__title{
     font-size: 44px;
     line-height: 52px;
     max-width: 580px;
@@ -129,12 +129,12 @@
     
 }
 
-.recipes__videos__elements{
+.recipes__thumnails{
    text-align: center;
    
 }
 
-.recipes__videos__captions{
+.recipes__captions{
     display: flex;
     justify-content: space-between;
 }
