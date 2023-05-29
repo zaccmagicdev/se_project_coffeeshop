@@ -21,9 +21,9 @@
 <body>
    <div class="page">
         <header class="header">
-            <nav class="header__link">
-                <img class="header__logo" src="/images/logo_coffee_shop.svg">
-                <ul class="header__link__list">
+            <nav class="nav">
+                <img class="header__logo" src="/images/logo_coffee_shop.svg" alt="Inside the cafe...">
+                <ul class="header__links">
                     <li><a href="#page-menu">Menu</a></li>
                     <li><a href="#page-recipes">Recipes</a></li>
                     <li><a href="#page-reservation">Book a table</a></li>
@@ -58,38 +58,34 @@
         
         <main class="content">
             <section id="page-recipes" class="recipes">
-                <h2 class="recipes__header">Recipes</h2>
+                <h2 class="recipes__title">Recipes</h2>
                 <p class="recipes__subtitle">Check out 
                     some recipes we've collected for<br> your
                     home-brewing convinience:
                 </p>
                 <div class="recipes__videos">
-                    <div class="recipes__videos__elements">
+                    <div class="recipes__thumbnails">
                         <iframe 
-                            id="ytplayer" 
-                            type="text/html" 
+                            id="recipes__iframe" 
                             width="480" 
                             height="273"
-                            src="https://www.youtube.com/embed/j6VlT_jUVPc"
-                            frameborder="0" 
+                            src="https://www.youtube.com/embed/j6VlT_jUVPc" 
                             allowfullscreen>
                         </iframe>
-                        <div class="recipes__videos__captions">
+                        <div class="recipes__captions">
                             <p>Aeropress recipe</p>
                             <p>~5 min</p>
                         </div>
                     </div>
-                    <div class="recipes__videos__elements">
+                    <div class="recipes__thumbnails">
                         <iframe 
-                            id="ytplayer" 
-                            type="text/html" 
+                            id="recipes__iframe"  
                             width="480" 
                             height="273"
-                            src="https://www.youtube.com/embed/st571DYYTR8"
-                            frameborder="0" 
+                            src="https://www.youtube.com/embed/st571DYYTR8" 
                             allowfullscreen>
                         </iframe>
-                        <div class="recipes__videos__captions">
+                        <div class="recipes__captions">
                             <p>French press recipe</p>
                             <p>~15 min</p>
                         </div>
