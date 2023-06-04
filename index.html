@@ -102,7 +102,7 @@
                 <h2 class = "reservation__title">Book a Table</h2>
                 <form class = "reservation__form">
                     <fieldset class = "reservation__fieldset">
-                        <form class = "reservation__element">
+                        <div class = "reservation__element">
                             <label for="reservation__name">Name *</label>
                             <input 
                                 type="text" 
@@ -110,8 +110,8 @@
                                 placeholder="Name Surname"
                                 required
                             >
-                        </form>
-                        <form class = "reservation__element">
+                        </div>
+                        <div class = "reservation__element">
                             <label for="reservation__intGuests">Number of guests *</label>
                             <input 
                                 type="number" 
@@ -121,16 +121,16 @@
                                 max="8"
                                 required
                             >
-                        </form>
-                        <form class = "reservation__element">
+                        </div>
+                        <div class = "reservation__element">
                             <label for="reservation__dateTime">Date &amp; Time *</label>
                             <input 
                                 type="datetime-local" 
                                 id="reservation__dateTime"
                                 required
                             >
-                        </form>
-                        <form class = "reservation__element">
+                        </div>
+                        <div class = "reservation__element">
                             <label for="reservation__yourEmail">Your email *</label>
                             <input 
                                 type="email"
@@ -138,13 +138,13 @@
                                 placeholder="email@email.com"
                                 required
                             >
-                        </form>
+                        </div>
                         <button type="submit">Book a table</button>
-                    </fieldset>
-                    <div class="reservation__agreement">    
-                        <input type="checkbox" id="reservation__chkbox">
-                        <label for="reservation__chkbox">I agree with the terms of use</label>
-                    </div>    
+                    </fieldset>    
+                </form>
+                <form class="reservation__agreement">    
+                    <input type="checkbox" id="reservation__chkbox">
+                    <label for="reservation__chkbox">I agree with the terms of use</label>
                 </form>
             </section>
             <section class="about">
