@@ -1,0 +1,78 @@
+.menu{
+    background-color:white;
+    background-image: url(../images/background_menu.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 720px;
+    max-height: 800px;
+    height: 100vh;
+    padding: 100px;
+    margin: 0;
+}
+
+.menu__title{
+    margin: auto auto 24px auto;
+    max-width: 780px;
+    text-align: center;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.menu__subtitle{
+    margin: auto auto 100px auto;
+    max-width: 780px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.cards{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 100px;
+}
+
+.card{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.card__title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card__list-item{
+    font-family: "Noto Serif", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.card__list-divider{
+    border-bottom: 1px solid black;
+    flex-grow: 1;
+}
+
+.card__list-item:first-of-type{
+    gap: 32px;
+}
+
+.card:last-of-type{
+    margin-top: -25px;
+}

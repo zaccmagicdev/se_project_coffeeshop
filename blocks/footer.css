@@ -1,0 +1,66 @@
+footer {
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    color: white;
+    padding: 60px 100px 60px 80px;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 224px;
+  }
+  
+  .footer__columns {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .footer__column_content_social {
+    margin-left: auto;
+  }
+  
+  .footer__logo {
+    height: 21px;
+    width: 116px;
+  }
+  
+  .footer__list {
+    /* The code below removes the default browser styles for lists */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer__list-item {
+    margin-bottom: 16px;
+  }
+  
+  .footer__list-item:last-of-type {
+    margin-bottom: 0px;
+  }
+  
+  .footer__column-heading {
+    margin-bottom: 20px;
+    margin-top: auto;
+  }
+  
+  .footer__column-link {
+    color: white;
+    font-size: 1em;
+    line-height: 20px;
+    text-decoration: none;
+    transition: all 500ms;
+  }
+  
+  .footer__column-link:hover {
+    color: #c1c1c1;
+    font-size: 17px;
+  }
+  
+  .footer__social-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+  }
+  
+  .footer__copyright {
+    margin: 108px 0 0 0;
+  }
