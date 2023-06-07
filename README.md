@@ -13,4 +13,8 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Adding some more animations across the page
+- Add more to the recipes page
+- Adding JS functionality soon
+- Updating the menu for newer items!
+- Splitting the structure up into multiple separate pages, allowing for more for the future
