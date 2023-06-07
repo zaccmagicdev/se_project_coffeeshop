@@ -1,16 +1,16 @@
-reservation__form{
+.reservation__form{
     padding: 0px;
     background: none;
 }
 
-.reservation__element{
+.form__element{
     margin: 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.reservation__fieldset{
+.form__fieldset{
     display: flex;
     margin:auto;
     flex-direction: column;
@@ -19,7 +19,7 @@ reservation__form{
     border: none;
 }
 
-.reservation__agreement{
+.form__agreement{
     display: flex;
     justify-content: center;
     gap: 12px;
@@ -34,7 +34,7 @@ input{
     border-radius: 4px;
 }
 
-input[id="reservation__chkbox"]{
+input[id="form__chkbox"]{
     width: 20px;
     height: 20px;
     border-radius: 2px;

@@ -4,11 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 720px;
-    max-height: 800px;
-    height: 100vh;
-    padding: 100px;
-    margin: 0;
+    padding: 100px 0 100px;
 }
 
 .menu__title{
