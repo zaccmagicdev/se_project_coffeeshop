@@ -1,0 +1,59 @@
+reservation__form{
+    padding: 0px;
+    background: none;
+}
+
+.reservation__element{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.reservation__fieldset{
+    display: flex;
+    margin:auto;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 385px;
+    border: none;
+}
+
+.reservation__agreement{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: auto;
+    max-width: 385px;
+    height: 20px;
+}
+
+input{
+    height: 60px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+
+input[id="reservation__chkbox"]{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+label{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+button[type="submit"]{
+    border-radius: 4px;
+    height: 60px;
+    background-color: #2F80ED;
+    color: white;
+    opacity: 100%;
+    transition: transform 0.1s ease 0.1s, opacity 0.1s ease 0.1s;
+}
+
+button[type="submit"]:hover{
+    opacity: 70%;
+}
