@@ -101,48 +101,48 @@
             <section class="reservation" id="page-reservation">
                 <h2 class = "reservation__title">Book a Table</h2>
                 <form class = "form reservation__form">
-                    <fieldset class = "reservation__fieldset">
-                        <div class = "reservation__element">
-                            <label for="reservation__name">Name *</label>
+                    <fieldset class = "form__fieldset">
+                        <div class = "form__element">
+                            <label for="form__name">Name *</label>
                             <input 
                                 type="text" 
-                                id="reservation__name"
+                                id="form__name"
                                 placeholder="Name Surname"
                                 required
                             >
                         </div>
-                        <div class = "reservation__element">
-                            <label for="reservation__intGuests">Number of guests *</label>
+                        <div class = "form__element">
+                            <label for="form__intGuests">Number of guests *</label>
                             <input 
                                 type="number" 
-                                id="reservation__intGuests"
+                                id="form__intGuests"
                                 placeholder="1-8"
                                 min="1"
                                 max="8"
                                 required
                             >
                         </div>
-                        <div class = "reservation__element">
-                            <label for="reservation__dateTime">Date &amp; Time *</label>
+                        <div class = "form__element">
+                            <label for="form__dateTime">Date &amp; Time *</label>
                             <input 
                                 type="datetime-local" 
-                                id="reservation__dateTime"
+                                id="form__dateTime"
                                 required
                             >
                         </div>
-                        <div class = "reservation__element">
-                            <label for="reservation__yourEmail">Your email *</label>
+                        <div class = "form__element">
+                            <label for="form__yourEmail">Your email *</label>
                             <input 
                                 type="email"
-                                id="reservation__yourEmail"
+                                id="form__yourEmail"
                                 placeholder="email@email.com"
                                 required
                             >
                         </div>
                         <button type="submit">Book a table</button>
-                        <div class="reservation__agreement">    
-                            <input type="checkbox" id="reservation__chkbox">
-                            <label for="reservation__chkbox">I agree with the terms of use</label>
+                        <div class="form__agreement">    
+                            <input type="checkbox" id="form__chkbox">
+                            <label for="form__chkbox">I agree with the terms of use</label>
                         </div>
                     </fieldset>    
                 </form>
@@ -156,7 +156,7 @@
                 <div class="cards">
                     <ul class="card">
                         <li class="card__list-item">
-                            <p class="card__title">Filter</p>
+                            <h3 class="card__title">Filter</h3>
                         </li>
                         <li class="card__list-item">
                             Regular (12 oz) 
@@ -186,7 +186,7 @@
                     </ul>
                     <ul class="card">
                         <li class="card__list-item">
-                            <p class="card__title">Espresso</p>
+                            <h3 class="card__title">Espresso</h3>
                         </li>
                         <li class="card__list-item">
                             Macciato
@@ -211,7 +211,7 @@
                     </ul>
                     <ul class="card">
                         <li class="card__list-item">
-                            <p class="card__title">Baked Goods</p>
+                            <h3 class="card__title">Baked Goods</h3>
                         </li>
                         <li class="card__list-item">
                             Almond Croissant
