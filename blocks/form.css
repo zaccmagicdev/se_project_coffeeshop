@@ -20,6 +20,9 @@
     line-height: 30px;
     border-radius: 4px;
     margin: 0 0 32px 0;
+    border: 1px solid #838383;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .form__button{
@@ -30,9 +33,10 @@
     opacity: 100%;
     transition: transform 0.1s ease 0.1s, opacity 0.1s ease 0.1s;
     margin: 0 0 32px 0;
+    border: none;
 }
 
-.form__checkboxlabel{
+.form__label_type_checkbox{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;

@@ -21,7 +21,7 @@
 
 .recipes__subtitle{
     max-width: 438px;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
@@ -47,11 +47,17 @@
     border: none;
 }
 
-.recipes__captions{
+.recipes__video-captions{
     display: flex;
     justify-content: space-between;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.recipes__video-caption{
+   margin: 0;
 }

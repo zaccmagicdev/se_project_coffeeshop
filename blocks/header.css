@@ -25,7 +25,7 @@
 
 .header__span{
     color:#2F80ED;
-    font-family:Noto Serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: italic;
     display: block;
 }
@@ -33,7 +33,7 @@
 
 .header__description{
     margin: 0;
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -55,7 +55,7 @@
     margin-top: auto;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     box-sizing: border-box;
     color: #838383;
