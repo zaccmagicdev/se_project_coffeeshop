@@ -1,54 +1,50 @@
-.form__element{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
 .form__fieldset{
     display: flex;
     margin:auto;
     flex-direction: column;
-    gap: 32px;
     max-width: 385px;
     border: none;
+    padding: 0;
 }
 
-.form__agreement{
+.form__label{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 8px 0;
     display: flex;
-    justify-content: center;
-    gap: 12px;
-    margin: auto;
-    max-width: 385px;
-    height: 20px;
+    flex-direction: column;
 }
 
-input{
+.form__input{
     height: 60px;
     line-height: 30px;
     border-radius: 4px;
+    margin: 0 0 32px 0;
 }
 
-input[id="form__chkbox"]{
-    width: 20px;
-    height: 20px;
-    border-radius: 2px;
-}
-
-label{
-    font-size: 16px;
-    line-height: 20px;
-}
-
-button[type="submit"]{
+.form__button{
     border-radius: 4px;
     height: 60px;
     background-color: #2F80ED;
     color: white;
     opacity: 100%;
     transition: transform 0.1s ease 0.1s, opacity 0.1s ease 0.1s;
+    margin: 0 0 32px 0;
 }
 
-button[type="submit"]:hover{
+.form__checkboxlabel{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 12px;
+}
+
+.form__checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.form__button:hover{
     opacity: 70%;
 }

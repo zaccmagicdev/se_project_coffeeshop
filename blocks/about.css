@@ -19,7 +19,6 @@
     position: relative;
     box-sizing: border-box;
     display: flex;
-    border-bottom: solid 1px white;
 }
 
 .about__title{
@@ -40,11 +39,12 @@
 }
 
 .about__paragraph{
-    font-family: "Noto Serif";
-    font-style: normal;
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-weight: normal;
     font-size: 20px;
-    line-height: 30px
+    line-height: 30px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .about__circle{

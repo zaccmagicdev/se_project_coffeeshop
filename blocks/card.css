@@ -4,10 +4,9 @@
     justify-content: center;
     gap: 100px;
     margin: 0;
-
 }
 
-.card{
+.card__list{
     margin: 0;
     padding: 0px;
     display: flex;
@@ -18,11 +17,12 @@
 }
 
 .card__title{
+    margin: 0 0 32px 0;
+    padding: 0;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 16px;
 }
 
 .card__list-item{
